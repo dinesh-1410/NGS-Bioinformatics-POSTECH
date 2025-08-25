@@ -4,7 +4,7 @@
 **Institution:** POSTECH (Pohang University of Science and Technology)  
 **Duration:** August 2024 - December 2024  
 **Faculty:** Dr. Jong Kyoung Kim, Laboratory of Computational Biology  
-**Student:** Saggurthi Dinesh (BE21B032)
+**Student:** Saggurthi Dinesh 
 
 ## Project Overview
 
@@ -42,10 +42,6 @@ This repository contains the reproduction and analysis of RNA-Seq data from the 
 
 ```
 ngs-bioinformatics-project/
-├── data/                    # Data files
-│   ├── raw/                # Raw sequencing data
-│   ├── processed/          # Processed data files
-│   └── reference/          # Reference genomes and annotations
 ├── scripts/                # Analysis scripts
 │   ├── preprocessing/      # Data preprocessing scripts
 │   ├── analysis/          # Analysis scripts
