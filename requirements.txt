@@ -1,0 +1,55 @@
+# Next Generation Sequencing and Bioinformatics Project Requirements
+# R Packages and Tools
+
+# Core Bioinformatics Analysis
+DESeq2>=1.40.0
+Limma>=3.56.0
+Rsubread>=2.14.0
+edgeR>=4.0.0
+
+# Data Manipulation and Analysis
+dplyr>=1.1.0
+tidyr>=1.3.0
+readr>=2.1.0
+data.table>=1.14.0
+
+# Visualization
+ggplot2>=3.4.0
+pheatmap>=1.0.12
+VennDiagram>=1.7.3
+RColorBrewer>=1.1.3
+ggrepel>=0.9.3
+
+# Statistical Analysis
+stats>=4.3.0
+corrplot>=0.92
+pcaMethods>=1.90.0
+
+# Gene Set Analysis
+clusterProfiler>=4.8.0
+org.Hs.eg.db>=3.17.0
+enrichplot>=1.20.0
+
+# Reproducible Research
+rmarkdown>=2.25.0
+knitr>=1.44.0
+kableExtra>=1.3.4
+
+# Utilities
+stringr>=1.5.0
+magrittr>=2.0.3
+glue>=1.6.2
+
+# External Tools (System Requirements)
+# STAR>=2.7.10a
+# Trim_Galore>=0.6.7
+# FastQC>=0.11.9
+# MultiQC>=1.14
+# samtools>=1.17
+# bedtools>=2.30.0
+
+# R Version
+# R>=4.3.0
+
+# Operating System
+# Linux/macOS/Windows

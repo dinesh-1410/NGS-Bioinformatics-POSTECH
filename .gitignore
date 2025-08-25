@@ -1,0 +1,113 @@
+# Next Generation Sequencing and Bioinformatics Project
+# .gitignore file
+
+# R specific files
+.RData
+.Rhistory
+.Ruserdata
+.Rapp.history
+.Rprofile
+.Renviron
+
+# R Markdown cache and output
+*_cache/
+*_files/
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# R package files
+*.Rcheck/
+*.tar.gz
+*.tgz
+*.zip
+
+# Data files (large files that shouldn't be in git)
+data/raw/
+data/processed/
+data/reference/
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+*.gtf
+*.gff
+*.fa
+*.fasta
+*.fna
+*.txt.gz
+*.csv.gz
+*.tsv.gz
+
+# Results and output files
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+results/tables/*.csv
+results/tables/*.tsv
+results/reports/*.html
+results/reports/*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.out
+*.err
+
+# Session files
+.Rsession
+.Rsession.lock
+
+# Package installation files
+packrat/
+renv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific files
+.vscode/
+.idea/
+*.Rproj.user/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files that exceed GitHub limits
+*.7z
+*.zip
+*.tar.gz
+*.rar
+
+# Specific project files to ignore
+ST*.txt
+ST*.xlsx
+ST*.7z
+ST*.zip
+*.yaml
+*.yml
+
+# Keep only essential data files
+!data/README.md
+!data/sample_data.csv
+!data/metadata.csv
+
+# Keep only essential results
+!results/README.md
+!results/analysis_summary.txt
