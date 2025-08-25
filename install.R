@@ -1,11 +1,4 @@
-#!/usr/bin/env Rscript
-# =============================================================================
-# Installation Script for NGS Bioinformatics Project
-# Course: LIFE622C - Next Generation Sequencing and Bioinformatics
-# Institution: POSTECH
-# Student: Saggurthi Dinesh (BE21B032)
-# Faculty: Dr. Jong Kyoung Kim
-# =============================================================================
+
 
 cat("=== NGS Bioinformatics Project - Package Installation ===\n")
 cat("Installing required R packages...\n\n")
