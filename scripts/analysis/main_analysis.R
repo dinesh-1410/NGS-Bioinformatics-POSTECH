@@ -1,12 +1,4 @@
 #!/usr/bin/env Rscript
-# =============================================================================
-# Main Analysis Script for NGS Bioinformatics Project
-# Course: LIFE622C - Next Generation Sequencing and Bioinformatics
-# Institution: POSTECH
-# Student: Saggurthi Dinesh (BE21B032)
-# Faculty: Dr. Jong Kyoung Kim
-# =============================================================================
-
 # Load required libraries
 suppressPackageStartupMessages({
   library(DESeq2)
